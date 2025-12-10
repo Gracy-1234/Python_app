@@ -21,5 +21,5 @@ jobs:
         script: |
           cd /home/ec2-user/Python_app
           git pull origin main
-       
+          pip3 install -r requirements.txt
           sudo systemctl restart pythonapp
